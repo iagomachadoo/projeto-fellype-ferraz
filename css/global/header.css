@@ -6,6 +6,10 @@
     padding-bottom: 28px;
 }
 
+.header-nome-crp p{
+    text-align: center;
+}
+
 .header-menu-bg{
     background-color: var(--p3);
 }

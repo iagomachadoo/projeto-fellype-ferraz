@@ -36,7 +36,37 @@
     font: 300 .875rem/1.45 var(--font-principal);
 }
 
+@media(max-width: 1000px){
+    .font-xxl{
+        font-size: 3rem;
+        max-width: 20ch;
+    }
+
+    .font-l{
+        font-size: 1.75rem;
+    }
+
+    .font-m{
+        font-size: 1.125rem;
+    }
+}
+
+@media(max-width: 800px){
+    .font-xxl{
+        font-size: 2rem;
+        max-width: 20ch;
+    }
+
+    .font-l{
+        font-size: 1.5rem;
+    }
+}
+
 @media(max-width: 600px){
+    .font-m{
+        font-size: 1rem;
+    }
+
     .font-s-b{
         font-size: 1rem;
     }
