@@ -1,0 +1,37 @@
+:root{
+    --font-principal: 'Lato', sans-serif;
+}
+
+.font-xxl{
+    font: 900 4rem var(--font-principal);
+}
+
+.font-xl{
+    font: 700 3rem var(--font-principal);
+}
+
+.font-l{
+    font: 400 2.25rem var(--font-principal);
+}
+
+.font-m{
+    font: 400 1.5rem/1.35 var(--font-principal);
+}
+
+.font-s{
+    font: 300 1.25rem/1.2 var(--font-principal);
+}
+
+.font-s-b{
+    font: 700 1.25rem/1.2 var(--font-principal);
+}
+
+.font-s-upper{
+    font: 700 1.25rem/1.2 var(--font-principal);
+    text-transform: uppercase;
+    letter-spacing: .15em;
+}
+
+.font-xs{
+    font: 300 .875rem/1.45 var(--font-principal);
+}

@@ -1,0 +1,7 @@
+@import './global/reset.css';
+@import './global/global.css';
+@import './global/header.css';
+
+@import './util/utilitario.css';
+@import './util/tipografia.css';
+@import './util/cor.css';

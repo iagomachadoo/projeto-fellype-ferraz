@@ -1,0 +1,82 @@
+.header-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.header-menu-bg{
+    background-color: var(--p3);
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header-menu a{
+    position: relative;
+}
+
+.header-menu a::after{
+    content: "";
+    display: none;
+    width: 0;
+    height: 2px;
+    background-color: var(--t1);
+    position: absolute;
+    top: calc(100% + 6px);
+}
+
+.header-menu a:hover::after{
+    display: block;
+    width: 100%;
+}
+
+.header-menu li:nth-child(3) a{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 4px;
+}
+
+.header-menu li:nth-child(3) a::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 6px;
+    background: url("../../img/icone/seta-menu.svg");
+    transform: rotate(180deg);
+}
+
+@media(max-width: 600px){
+    .header-principal{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 40px 20px;
+    }
+
+    .header-menu a{
+        background-color: var(--p4);
+        padding: 8px 12px;
+        border-radius: 5px;
+    }
+
+    .header-menu a:hover::after{
+        display: none;
+    }
+}
