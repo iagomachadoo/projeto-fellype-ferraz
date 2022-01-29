@@ -1,0 +1,51 @@
+.perguntas{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.perguntas h2{
+    margin-bottom: 32px;
+}
+
+.perguntas div{
+    padding: 20px 32px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+
+.perguntas div:last-child{
+    margin-bottom: 0;
+}
+
+.perguntas div:nth-child(odd){
+    background-color: var(--s1);
+}
+
+.perguntas div:nth-child(even){
+    background-color: var(--s2);
+}
+
+.perguntas button{
+    border: none;
+    background-color: inherit;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    gap: 20px;
+}
+
+.perguntas button::after{
+    content: "";
+    display: block;
+    width: 18px;
+    height: 10px;
+    background: url("../../img/icone/seta-abre-fecha.svg");
+}
+
+.perguntas dd{
+    max-width: 65ch;
+}

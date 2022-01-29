@@ -18,12 +18,20 @@
     font: 400 1.5rem/1.35 var(--font-principal);
 }
 
+.font-m-b{
+    font: 700 1.5rem/1.35 var(--font-principal);
+}
+
 .font-s{
     font: 300 1.25rem/1.2 var(--font-principal);
 }
 
 .font-s-b{
     font: 700 1.25rem/1.2 var(--font-principal);
+}
+
+.font-s-c{
+    font: 400 1.25rem/1.2 var(--font-principal);
 }
 
 .font-s-upper{
@@ -60,11 +68,23 @@
     .font-l{
         font-size: 1.5rem;
     }
+
+    .font-m-b{
+        font-size: 1.5rem;
+    }
+
+    .font-s-c{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width: 600px){
     .font-m{
         font-size: 1rem;
+    }
+
+    .font-m-b{
+        font-size: 1.25rem;
     }
 
     .font-s-b{

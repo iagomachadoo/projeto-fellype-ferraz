@@ -2,6 +2,7 @@
 @import './global/global.css';
 @import './global/header.css';
 @import './global/intro.css';
+@import './global/perguntas.css';
 
 @import './util/utilitario.css';
 @import './util/tipografia.css';
