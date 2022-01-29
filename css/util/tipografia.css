@@ -35,3 +35,9 @@
 .font-xs{
     font: 300 .875rem/1.45 var(--font-principal);
 }
+
+@media(max-width: 600px){
+    .font-s-b{
+        font-size: 1rem;
+    }
+}
