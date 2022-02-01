@@ -1,0 +1,49 @@
+.sobre-mim-bg{
+    background-color: var(--p3);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sobre-mim{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: end;
+}
+
+.sobre-mim-conteudo h2{
+    margin-bottom: 20px;
+}
+
+.sobre-mim-conteudo p{
+    margin-bottom: 32px;
+}
+
+.sobre-mim-img img{
+    border: 1px solid var(--c11);
+}
+
+@media(max-width: 800px){
+    .sobre-mim{
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-mim-img{
+        grid-row: 1;
+    }
+
+    .sobre-mim-img img{
+        margin: auto;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 600px){
+    .sobre-mim{
+        gap: 20px;
+    }
+
+    .sobre-mim-img img{
+        max-width: 70%;
+    }
+}
