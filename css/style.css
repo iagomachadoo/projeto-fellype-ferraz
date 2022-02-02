@@ -4,6 +4,8 @@
 @import './global/intro.css';
 @import './global/perguntas.css';
 @import './global/sobre-mim.css';
+@import './global/temas.css';
+@import './global/postagens.css';
 
 @import './util/utilitario.css';
 @import './util/tipografia.css';

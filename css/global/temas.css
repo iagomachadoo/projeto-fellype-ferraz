@@ -1,0 +1,39 @@
+.temas{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.temas h2{
+    margin-bottom: 40px;
+}
+
+.temas-lista{
+    display: flex;
+    gap: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.temas-lista li{
+    background-color: var(--p3);
+    padding: 20px;
+    min-width: 320px;
+}
+
+.temas-lista li:first-child{
+    margin-left: 50px;
+}
+
+.temas-lista li a{
+    display: block;
+}
+
+.tema-img img{
+    border: 1px solid var(--c11);
+}
+
+.temas-lista li h3{
+    margin-top: 20px;
+}
