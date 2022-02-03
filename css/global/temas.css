@@ -1,32 +1,35 @@
 .temas{
     padding-top: 60px;
     padding-bottom: 60px;
+    position: relative;
 }
 
 .temas h2{
     margin-bottom: 40px;
+    max-width: initial;
 }
 
-.temas-lista{
+.corrossel-container{
+    overflow: hidden;
+}
+
+.corressel{
     display: flex;
     gap: 40px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: center;
-    overflow-x: auto;
+    transition: .4s ease-in-out;
+    transform: translateX(0);/* move o elemento no eixo X */
 }
 
-.temas-lista li{
+.slide{
     background-color: var(--p3);
     padding: 20px;
     min-width: 320px;
 }
 
-.temas-lista li:first-child{
-    margin-left: 50px;
-}
-
-.temas-lista li a{
+.slide a{
     display: block;
 }
 
@@ -34,6 +37,63 @@
     border: 1px solid var(--c11);
 }
 
-.temas-lista li h3{
+.slide h3{
     margin-top: 20px;
+}
+
+.temas button{
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    display: block;
+    top: 50%;
+    z-index: 1000;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.temas button:hover{
+    background-color: var(--s1);
+}
+
+.btn-esquerdo{
+    left: 12px;
+}
+
+.btn-direito{
+    right: 12px;
+    transform: rotate(180deg);
+}
+
+@media(max-width: 800px){
+    .slide{
+        min-width: 240px;
+    }
+}
+
+@media(max-width: 600px){
+    .corressel{
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .temas h2{
+        margin-bottom: 32px;
+    }
+
+    .slide{
+        min-width: 160px;
+        padding: 8px;
+    }
+
+    .slide h3{
+        margin-top: 8px;
+    }
+
+    .btn-esquerdo img,
+    .btn-direito img{
+        width: 16px;
+    }
 }
