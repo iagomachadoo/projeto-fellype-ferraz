@@ -15,25 +15,51 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-principal container">
-            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="img-logo">
+        <div class="header__principal container">
+            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
 
-            <div class="header-nome-crp">
+            <div>
                 <p class="font-m-b c-11">Fellype Ferraz Pecly</p>
 
                 <p class="font-xs c-9">Psicólogo Clínico | CRP - 05/67330</p>
             </div>
         </div>
 
-        <nav class="header-menu-bg">
-            <ul class="header-menu container font-s-b p-1">
-                <li><a href="./">início</a></li>
+        <nav class="header__menu">
+            <button class="btn btn__menu--mobile btn__menu--after" aria-expanded="false" aria-controls="header__lista" aria-haspopup="true" aria-label="Abrir menu"></button>
 
-                <li><a href="./quem-sou.html">quem sou</a></li>
+            <ul class="header__lista container font-s-b p-1" id="header__lista" role="menu">
+                <li class="header__item">
+                    <a href="./" class="header__link header__link--before">início</a>
+                </li>
 
-                <li><a href="./temas.html">temas</a></li>
+                <li class="header__item">
+                    <a href="./quem-sou.html" class="header__link header__link--before">quem sou</a>
+                </li>
 
-                <li><a href="./mensagens.html">mensagens</a></li>
+                <li class="header__item header__item--relative ">
+                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false" aria-controls="header__sub-menu" aria-haspopup="true" aria-label="Abrir temas">temas</a>
+
+                    <div class="header__sub-menu" id="header__sub-menu">
+                        <ul class="sub-menu__lista" role="menu">
+                            <li class="sub-menu__item">
+                                <a href="#" class="sub-menu__link sub-menu__link--after">Ansiedade</a>
+                            </li>
+
+                            <li class="sub-menu__item">
+                                <a href="#" class="sub-menu__link sub-menu__link--after">Depressão</a>
+                            </li>
+
+                            <li class="sub-menu__item">
+                                <a href="#" class="sub-menu__link sub-menu__link--after">Luto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="header__item">
+                    <a href="./mensagens.html" class="header__link header__link--before">mensagens</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -254,6 +280,12 @@
         </div>
     </section>
 
+    <section class="caixa-mensagem">
+        <h2 class="font-xxl c-11"></h2>
+    </section>
+
+    <script src="./js/menu-temas.js"></script>
+    <script src="./js/menu-mobile.js"></script>
     <script src="./js/slider.js"></script>
 </body>
 </html> 
