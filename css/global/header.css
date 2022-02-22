@@ -124,6 +124,7 @@
         display: flex;
         border: none;
         background-color: none;
+        cursor: pointer;
     }
 
     .btn__menu--after::after{
@@ -144,7 +145,7 @@
     .header__lista{
         flex-direction: column;
         gap: 8px;
-        background-color: var(--p3);
+        background-color: var(--p2);
         border-radius: 5px;
         position: absolute;
         top: 44px;
@@ -174,6 +175,7 @@
         top: 0;
         left: 107px;
         border-radius: 5px;
+        background-color: var(--p2);
     }
 
     .sub-menu__link::after{
