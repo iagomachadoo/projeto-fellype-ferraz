@@ -5,23 +5,11 @@
     margin: auto;
 }
 
-.botao{
+.btn{
     display: inline-block;
     background-image: linear-gradient(var(--g1), var(--g2));
     padding: 8px 16px;
     border-radius: 5px;
     color: var(--p3);
-    font: 700 1.25rem/1.2 var(--font-principal);
-}
-
-@media(max-width: 800px){
-    .botao{
-        font-size: 1.125rem;
-    }
-}
-
-@media(max-width: 600px){
-    .botao{
-        font-size: 1rem;
-    }
+    font: 700 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
 }
