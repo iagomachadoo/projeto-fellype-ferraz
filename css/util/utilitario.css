@@ -13,3 +13,22 @@
     color: var(--p3);
     font: 700 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
 }
+
+.btn-link{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: max-content;
+    padding-bottom: 60px;
+    font: 700 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: var(--p5);
+}
+
+.btn-link--after::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--p5);
+}

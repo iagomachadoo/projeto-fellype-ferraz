@@ -23,7 +23,7 @@
 }
 
 .font-s{
-    font: 300 1.25rem/1.2 var(--font-principal);
+    font: 300 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
 }
 
 .font-s-b{

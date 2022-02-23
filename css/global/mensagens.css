@@ -1,0 +1,39 @@
+.caixa-mensagem__titulo{
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.caixa-mensagem__subtitulo{
+    margin-bottom: 60px;
+}
+
+.caixa-mensagem__img{
+    margin: 0 auto 20px auto;
+    border: 1px solid var(--c11);
+}
+
+.caixa-mensagem__mensagem{
+    text-align: center;
+}
+
+.caixa-mensagem__info{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.caixa-mensagem__texto{
+    margin: 0 auto 60px auto;
+    max-width: 50ch;
+}
+
+@media(max-width: 800px){
+    .caixa-mensagem__img{
+        max-width: 35%;
+    }
+}
+
+@media(max-width: 500px){
+    .caixa-mensagem__img{
+        max-width: 50%;
+    }
+}
