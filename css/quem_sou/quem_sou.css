@@ -1,0 +1,47 @@
+.quem-sou{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quem-sou__img{
+    margin: 0 auto 60px auto;
+    border: 1px solid var(--c11);
+}
+
+.quem-sou__titulo{
+    margin-bottom: 32px;
+}
+
+.quem-sou__texto{
+    max-width: 63ch;
+    margin-bottom: 20px;
+}
+
+.quem-sou__secundario{
+    display: block;
+}
+
+@media(max-width: 800px){
+    .quem-sou__img{
+        max-width: 40%;
+    }
+}
+
+@media(max-width: 600px){
+    .header__lista--quem-sou{
+        background-color: var(--p3);
+    }
+
+    .sub-menu__lista--quem-sou{
+        background-color: var(--p3);
+    }
+
+    .quem-sou{
+        padding-bottom: 32px;
+    }
+
+    .quem-sou__img{
+        margin-bottom: 32px;
+        max-width: 50%;
+    }
+}
