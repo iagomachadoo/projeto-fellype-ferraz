@@ -72,10 +72,6 @@
     position: relative;
 }
 
-.header__sub-menu .is-ativo{
-    visibility: visible;
-}
-
 .sub-menu__lista{
     position: absolute;
     background-color: var(--p3);
@@ -86,6 +82,10 @@
     gap: 8px;
     visibility: hidden;
     transition: .2s;
+}
+
+.header__sub-menu .is-ativo {
+    visibility: visible;
 }
 
 .sub-menu__link{

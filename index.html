@@ -38,10 +38,10 @@
                 </li>
 
                 <li class="header__item header__item--relative ">
-                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false" aria-controls="header__sub-menu" aria-haspopup="true" aria-label="Abrir temas">temas</a>
+                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false" aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</a>
 
-                    <div class="header__sub-menu" id="header__sub-menu">
-                        <ul class="sub-menu__lista" role="menu">
+                    <div class="header__sub-menu">
+                        <ul class="sub-menu__lista" id="sub-menu__lista" role="menu">
                             <li class="sub-menu__item">
                                 <a href="#" class="sub-menu__link sub-menu__link--after">Ansiedade</a>
                             </li>
@@ -112,33 +112,33 @@
     </main>
 
     <article class="perguntas container">
-        <h2 class="font-xxl c11">Perguntas frequentes.</h2>
+        <h2 class="font-xxl c11 perguntas__titulo">Perguntas frequentes.</h2>
 
-        <dl>
-            <div>
-                <dt><button class="font-m-b c-11" aria-expanded="true" aria-controls="pergunta1">Como saber se preciso de um psicólogo?</button></dt>
+        <dl class="perguntas__container">
+            <div class="perguntas__conteudo">
+                <dt><button class="font-m-b c-11 perguntas__pergunta perguntas__pergunta--after" aria-expanded="true" aria-controls="pergunta1">Como saber se preciso de um psicólogo?</button></dt>
 
-                <dd class="font-s-c c-9 ativa" id="pergunta1">O acompanhamento psicológico é indicado para qualquer pessoa que queira lidar com as suas questões, sejam da ordem psicológica, emocional, comportamental... visando melhorar a qualidade de vida e adquirir bem-estar. Emoções intensificadas, descontrole emocional, relacionamentos tóxicos, abusivos, traumáticos, luto mal elaborado, má relação com a aparência, problemas da ordem sexual, baixo rendimento, perda de esperança, quebra de expectativa, conflitos pessoais, amorosos, familiares, sociais, questões com sono e alimentação, tristeza constante, ansiedade exacerbada, transtornos, fobias, estagnação, vazio, desconforto, angústia, trauma, medo, descontrole. A lista é grande, mas se você deseja mudar sua vida para melhor, encarando o mal-estar e restaurando seu equilíbrio, terá a oportunidade de se desenvolver em todos os âmbitos.</dd>
+                <dd class="font-s-c c-9 ativa perguntas__resposta is-ativo" id="pergunta1">O acompanhamento psicológico é indicado para qualquer pessoa que queira lidar com as suas questões, sejam da ordem psicológica, emocional, comportamental... visando melhorar a qualidade de vida e adquirir bem-estar. Emoções intensificadas, descontrole emocional, relacionamentos tóxicos, abusivos, traumáticos, luto mal elaborado, má relação com a aparência, problemas da ordem sexual, baixo rendimento, perda de esperança, quebra de expectativa, conflitos pessoais, amorosos, familiares, sociais, questões com sono e alimentação, tristeza constante, ansiedade exacerbada, transtornos, fobias, estagnação, vazio, desconforto, angústia, trauma, medo, descontrole. A lista é grande, mas se você deseja mudar sua vida para melhor, encarando o mal-estar e restaurando seu equilíbrio, terá a oportunidade de se desenvolver em todos os âmbitos.</dd>
             </div>
 
-            <div>
-                <dt><button class="font-m-b c-11" aria-expanded="true" aria-controls="pergunta1">Como funciona a terapia on-line?</button></dt>
+            <div class="perguntas__conteudo">
+                <dt><button class="font-m-b c-11 perguntas__pergunta perguntas__pergunta--after" aria-expanded="false" aria-controls="pergunta2">Como funciona a terapia on-line?</button></dt>
 
-                <dd class="font-s-c c-9" id="pergunta1">Após ser aprovada pelo Conselho Federal de Psicologia, a terapia on-line se tornou uma ferramenta muito utilizada pelos profissionais e usuários do serviço, considerando a praticidade e utilidade que oferece, ainda mais atualmente devido às circunstâncias. Consulta, atendimento e acompanhamento psicológico são realizados através de ferramentas de áudio e vídeo em chamadas, nas plataformas do Google Meet, Zoom, WhatsApp, considerando a melhor possibilidade do público e ocorrendo de modo síncrono. Uma sala virtual é criada para cada atendimento, onde um link será enviado minutos antes da sessão, visando um ambiente com privacidade, ético, sigiloso, adequado e confiável para o atendimento. Como esse formato rompe a barreira geográfica, o suporte psicológico é mais acessível, por isso tem sido um facilitador de vidas, pois oferece mais dinamismo e conforto.
+                <dd class="font-s-c c-9 perguntas__resposta" id="pergunta2">Após ser aprovada pelo Conselho Federal de Psicologia, a terapia on-line se tornou uma ferramenta muito utilizada pelos profissionais e usuários do serviço, considerando a praticidade e utilidade que oferece, ainda mais atualmente devido às circunstâncias. Consulta, atendimento e acompanhamento psicológico são realizados através de ferramentas de áudio e vídeo em chamadas, nas plataformas do Google Meet, Zoom, WhatsApp, considerando a melhor possibilidade do público e ocorrendo de modo síncrono. Uma sala virtual é criada para cada atendimento, onde um link será enviado minutos antes da sessão, visando um ambiente com privacidade, ético, sigiloso, adequado e confiável para o atendimento. Como esse formato rompe a barreira geográfica, o suporte psicológico é mais acessível, por isso tem sido um facilitador de vidas, pois oferece mais dinamismo e conforto.
                 </dd>
             </div>
 
-            <div>
-                <dt><button class="font-m-b c-11" aria-expanded="true" aria-controls="pergunta1">É caro? Quais as formas de pagamento?</button></dt>
+            <div class="perguntas__conteudo">
+                <dt><button class="font-m-b c-11 perguntas__pergunta perguntas__pergunta--after" aria-expanded="false" aria-controls="pergunta3">É caro? Quais as formas de pagamento?</button></dt>
 
-                <dd class="font-s-c c-9" id="pergunta1">Investir em saúde mental não é caro, é necessário. O valor do serviço, embora tenha uma tabela padrão, é variável e flexível. Os profissionais adotam critérios para estabelecer a média dos atendimentos, considerando as demandas, as necessidades, as prioridades e outros fatores em relação ao acompanhamento psicológico. É importante que haja um acordo entre ambas as partes, ocorrendo um consenso que valorize o trabalho realizado pelo profissional e que permita que o paciente consiga se sustentar no processo terapêutico. A forma de pagamento também será um acordo, analisando as melhores opções, por isso o primeiro contato é fundamental, pois é um espaço de trocas, que evidencia todas as questões e particularidades, permitindo conhecer o espaço e tirar todas as dúvidas.
+                <dd class="font-s-c c-9 perguntas__resposta" id="pergunta3">Investir em saúde mental não é caro, é necessário. O valor do serviço, embora tenha uma tabela padrão, é variável e flexível. Os profissionais adotam critérios para estabelecer a média dos atendimentos, considerando as demandas, as necessidades, as prioridades e outros fatores em relação ao acompanhamento psicológico. É importante que haja um acordo entre ambas as partes, ocorrendo um consenso que valorize o trabalho realizado pelo profissional e que permita que o paciente consiga se sustentar no processo terapêutico. A forma de pagamento também será um acordo, analisando as melhores opções, por isso o primeiro contato é fundamental, pois é um espaço de trocas, que evidencia todas as questões e particularidades, permitindo conhecer o espaço e tirar todas as dúvidas.
                 </dd>
             </div>
 
-            <div>
-                <dt><button class="font-m-b c-11" aria-expanded="true" aria-controls="pergunta1">Quanto tempo dura uma sessão? E a terapia?</button></dt>
+            <div class="perguntas__conteudo">
+                <dt><button class="font-m-b c-11 perguntas__pergunta perguntas__pergunta--after" aria-expanded="false" aria-controls="pergunta4">Quanto tempo dura uma sessão? E a terapia?</button></dt>
 
-                <dd class="font-s-c c-9" id="pergunta1">No início do tratamento, a frequência ideal é de pelo menos uma vez na semana, alguns casos mais urgentes podem exigir mais atenção e outros podem até ocorrer de modo quinzenal. O tempo de uma sessão é de 50 minutos em média, podendo ser menos ou mais em situações específicas. Não é possível saber, de antemão, por quanto tempo durará a terapia, justamente por ser algo muito relativo, que vai depender de como o paciente se sente ao longo do tratamento e do seu desejo de prosseguir com o processo, depender também da demanda, especificidade, patologia, transtorno ou outros fatores que estiverem sendo tratados. É necessário pesquisa e busca, para encontrar um espaço que seja confortável para tratar suas questões, onde o cerne é o seu bem-estar.
+                <dd class="font-s-c c-9 perguntas__resposta" id="pergunta4">No início do tratamento, a frequência ideal é de pelo menos uma vez na semana, alguns casos mais urgentes podem exigir mais atenção e outros podem até ocorrer de modo quinzenal. O tempo de uma sessão é de 50 minutos em média, podendo ser menos ou mais em situações específicas. Não é possível saber, de antemão, por quanto tempo durará a terapia, justamente por ser algo muito relativo, que vai depender de como o paciente se sente ao longo do tratamento e do seu desejo de prosseguir com o processo, depender também da demanda, especificidade, patologia, transtorno ou outros fatores que estiverem sendo tratados. É necessário pesquisa e busca, para encontrar um espaço que seja confortável para tratar suas questões, onde o cerne é o seu bem-estar.
                 </dd>
             </div>
         </dl>
@@ -289,6 +289,7 @@
 
     <script src="./js/menu-temas.js"></script>
     <script src="./js/menu-mobile.js"></script>
+    <script src="./js/perguntas.js"></script>
     <script src="./js/slider.js"></script>
 </body>
 </html> 

@@ -3,29 +3,30 @@
     padding-bottom: 60px;
 }
 
-.perguntas h2{
+.perguntas__titulo{
     margin-bottom: 32px;
 }
 
-.perguntas div{
+.perguntas__container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.perguntas__conteudo{
     padding: 20px 32px;
     border-radius: 5px;
-    margin-bottom: 32px;
 }
 
-.perguntas div:last-child{
-    margin-bottom: 0;
-}
-
-.perguntas div:nth-child(odd){
+.perguntas__conteudo:nth-child(odd){
     background-color: var(--s1);
 }
 
-.perguntas div:nth-child(even){
+.perguntas__conteudo:nth-child(even){
     background-color: var(--s2);
 }
 
-.perguntas button{
+.perguntas__pergunta{
     border: none;
     background-color: inherit;
     margin-bottom: 20px;
@@ -38,7 +39,7 @@
     gap: 20px;
 }
 
-.perguntas button::after{
+.perguntas__pergunta--after::after{
     content: "";
     display: block;
     width: 18px;
@@ -46,6 +47,15 @@
     background: url("../../img/icone/seta-abre-fecha.svg");
 }
 
-.perguntas dd{
+.perguntas__resposta{
     max-width: 65ch;
+    display: none;
+}
+
+.perguntas__conteudo .is-ativo{
+    display: block;
+}
+
+.perguntas__pergunta--rotacionar::after{
+    transform: rotate(180deg);
 }

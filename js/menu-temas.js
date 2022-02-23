@@ -7,11 +7,11 @@ headerLinkSeta.addEventListener('click', abreFechaTemas);
 headerLinkSeta.addEventListener('touchstart', abreFechaTemas);
 
 function abreFechaTemas(evento) {
-    if(evento.type === 'touchstart' ){
+    if(evento.type === 'touchstart'){
         evento.preventDefault()
     }
 
-    const subMenuLista = document.querySelector('.sub-menu__lista ');
+    const subMenuLista = document.querySelector('.sub-menu__lista');
 
     subMenuLista.classList.toggle('is-ativo');
 
