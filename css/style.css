@@ -7,6 +7,7 @@
 @import './global/temas.css';
 @import './global/postagens.css';
 @import './global/mensagens.css';
+@import './global/footer.css';
 
 @import './util/utilitario.css';
 @import './util/tipografia.css';
