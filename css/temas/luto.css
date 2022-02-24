@@ -1,0 +1,75 @@
+.luto__titulo{
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.luto__img{
+    border: 1px solid var(--c11);
+    margin-bottom: 60px;
+}
+
+.luto__conteudo{
+    padding: 20px;
+    background-color: var(--p3);
+    border-radius: 5px;
+    margin-bottom: 32px;
+    transition: .2s;
+}
+
+.luto__conteudo.is-hover:hover{
+    background-color: var(--s1);
+}
+
+.luto__link{
+    display: block;
+}
+
+
+.luto__subtitulo,
+.luto__data-publicacao{
+    border-bottom: 2px solid var(--p4);
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.luto__data-publicacao,
+.luto__autor{
+    display: block;
+}
+
+.luto__conteudo--mb{
+    margin-bottom: 60px;
+}
+
+@media(max-width: 800px){
+    .luto__titulo{
+        margin-bottom: 40px;
+    }
+
+    .luto__img{
+        margin-bottom: 40px;
+    }
+
+    .luto__conteudo--mb{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    .header__lista--luto,
+    .sub-menu__lista--luto{
+        background-color: var(--p3);
+    }
+
+    .luto__titulo{
+        margin-bottom: 32px;
+    }
+
+    .luto__img{
+        margin-bottom: 32px;
+    }
+
+    .luto__conteudo--mb{
+        margin-bottom: 32px;
+    }
+}
