@@ -1,0 +1,73 @@
+.mensagem{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mensagem__titulo{
+    margin-bottom: 60px;
+}
+
+.mensagem__dados{
+    margin-bottom: 32px;
+}
+
+.mensagem__label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.mensagem__input{
+    width: 200px;
+    height: 40px;
+    font: 400 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
+    padding-left: 8px;
+    border: 1px solid var(--p1);
+    border-radius: 5px;
+}
+
+.mensagem__dados--mb{
+    margin-bottom: 60px;
+}
+
+.mensagem__text-area{
+    font: 400 clamp(1rem, 2.5vw, 1.25rem)/1.2 var(--font-principal);
+    padding-top: 8px;
+    padding-left: 8px;
+    border-color: var(--p1);
+    border-radius: 5px;
+}
+
+.mensagem__limite{
+    display: block;
+    margin-top: 8px;
+}
+
+@media(max-width: 800px){
+    .mensagem__titulo{
+        margin-bottom: 40px;
+    }
+
+    .mensagem__dados--mb{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 600px){
+    .header__lista--mensagem,
+    .sub-menu__lista--mensagem{
+        background-color: var(--p3);
+    }
+
+    .mensagem{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .mensagem__titulo{
+        margin-bottom: 20px;
+    }
+
+    .mensagem__dados--mb{
+        margin-bottom: 20px;
+    }
+}
