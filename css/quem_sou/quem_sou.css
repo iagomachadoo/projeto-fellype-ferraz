@@ -28,10 +28,7 @@
 }
 
 @media(max-width: 600px){
-    .header__lista--quem-sou{
-        background-color: var(--p3);
-    }
-
+    .header__lista--quem-sou,
     .sub-menu__lista--quem-sou{
         background-color: var(--p3);
     }

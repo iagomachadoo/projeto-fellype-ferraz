@@ -11,6 +11,8 @@
 
 @import './quem_sou/quem_sou.css';
 
+@import './temas/ansiedade.css';
+
 @import './util/utilitario.css';
 @import './util/tipografia.css';
 @import './util/cor.css';
