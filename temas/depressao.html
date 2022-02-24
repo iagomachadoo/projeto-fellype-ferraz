@@ -10,13 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="../css/style.css" as="style">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="header__principal container">
-            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
+            <img src="../img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
 
             <div>
                 <p class="font-m-b c-11">Fellype Ferraz Pecly</p>
@@ -28,26 +28,26 @@
         <nav class="header__menu">
             <button class="btn__menu--mobile btn__menu--after" aria-expanded="false" aria-controls="header__lista" aria-haspopup="true" aria-label="Abrir menu"></button>
 
-            <ul class="header__lista header__lista--quem-sou container font-s-b p-1" id="header__lista" role="menu">
+            <ul class="header__lista header__lista--ansiedade container font-s-b p-1" id="header__lista" role="menu">
                 <li class="header__item">
-                    <a href="./index.html" class="header__link header__link--before">início</a>
+                    <a href="../index.html" class="header__link header__link--before">início</a>
                 </li>
 
                 <li class="header__item">
-                    <a href="./quem-sou.html" class="header__link">quem sou</a>
+                    <a href="../quem-sou.html" class="header__link header__link--before">quem sou</a>
                 </li>
 
                 <li class="header__item header__item--relative ">
                     <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false" aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</a>
 
                     <div class="header__sub-menu">
-                        <ul class="sub-menu__lista sub-menu__lista--quem-sou" id="sub-menu__lista" role="menu">
+                        <ul class="sub-menu__lista sub-menu__lista--ansiedade" id="sub-menu__lista" role="menu">
                             <li class="sub-menu__item">
-                                <a href="./temas/ansiedade.html" class="sub-menu__link sub-menu__link--after">Ansiedade</a>
+                                <a href="../temas/ansiedade.html" class="sub-menu__link sub-menu__link--after">Ansiedade</a>
                             </li>
 
                             <li class="sub-menu__item">
-                                <a href="./temas/depressao.html" class="sub-menu__link sub-menu__link--after">Depressão</a>
+                                <a href="../temas/depressao.html" class="sub-menu__link sub-menu__link--after">Depressão</a>
                             </li>
 
                             <li class="sub-menu__item">
@@ -63,33 +63,59 @@
             </ul>
         </nav>
     </header>
-    
-    <main class="quem-sou container">
+
+    <main class="depressao container">
+        <h1 class="font-xxl c-11 depressao__titulo">Notas sobre a depressão.</h1>
+
         <picture>
-            <img src="./img/img-sobre-mim/img-perfil-400-414.jpg" alt="Ilustração de Fellype Ferraz Pecly" class="quem-sou__img" width="400" height="414">
+            <img src="../img/img-capa/depressao-capa-1160-556.jpg" alt="" class="depressao__img" width="1160" height="556">
         </picture>
 
-        <h1 class="font-xxl c-11 quem-sou__titulo">Conheça o Fellype.</h1>
+        <div class="depressao__conteudo is-hover">
+            <a href="#" class="depressao__link">
+                <h2 class="font-l c-11 depressao__subtitulo">Título: Texto 1</h2>
+                
+                <span class="font-s-b c-9 depressao__data-publicacao">Data da publicação: 01/01/0101</span>
+                
+                <span class="font-s-b c-9 depressao__autor">Autor: Fellype Ferraz Pecly</span>
+            </a>
+        </div>
 
-        <p class="font-m c-9 quem-sou__texto">Entre idas e vindas em instituições hospitalares para o tratamento de um problema de saúde que durou cerca de dez anos, nasceu meu desejo pela psicologia. Em um espaço onde os corpos pedem ajuda e a mente quer auxílio, parecia difícil encontrar uma oportunidade para expressar todas as questões, entre as angústias à busca por amparo nem sempre é física, foi precisando falar que eu compreendi a importância de ter quem escutar.</p>
+        <div class="depressao__conteudo is-hover">
+            <a href="#" class="depressao__link">
+                <h2 class="font-l c-11 depressao__subtitulo">Título: Texto 2</h2>
+                
+                <span class="font-s-b c-9 depressao__data-publicacao">Data da publicação: 01/01/0101</span>
+                
+                <span class="font-s-b c-9 depressao__autor">Autor: Fellype Ferraz Pecly</span>
+            </a>
+        </div>
 
-        <p class="font-m c-9 quem-sou__texto">Me construí psicólogo conhecendo outros, nunca mais me vi fazendo outra coisa. A minha atuação advém da união entre psicanálise e redes de saúde e atenção, onde sou constantemente convocado para trabalhar uma escuta sensível, ética e não excludente, induzido a construir uma clínica que também se faz para além do setting analítico tradicional. Durante minha graduação, me debrucei sobre a temática da angústia, do desamparo e do luto, da morte preanunciada e da finitude escancarada, compreendendo que nos percursos da vida até a morte é o paciente quem dá significado para própria existência, não sendo possível completar o trajeto correndo de si.</p>
+        <div class="depressao__conteudo is-hover">
+            <a href="#" class="depressao__link">
+                <h2 class="font-l c-11 depressao__subtitulo">Título: Texto 3</h2>
+                
+                <span class="font-s-b c-9 depressao__data-publicacao">Data da publicação: 01/01/0101</span>
+                
+                <span class="font-s-b c-9 depressao__autor">Autor: Fellype Ferraz Pecly</span>
+            </a>
+        </div>
 
-        <p class="font-m c-9 quem-sou__texto">Integrado à universidade, tive a oportunidade de aguçar minha escuta através dos atendimentos clínicos em instituições de saúde, a experiência com pacientes diagnosticados com câncer e o suporte às demandas de ideações e tentativas de suicídio, abuso sexual, depressão, ansiedade, violências, vícios, luto e tantas outras questões que surgiram nesse período reforçaram a ideia de que todo sujeito que ainda pulsa vida, nem sempre é êxtase total ou desencanto absoluto, apenas um testemunho do que acontece com si durante o processo de adoecimento, físico ou mental, da vida ou da alma, onde a escuridão às vezes é do problema e outras do próprio coração.</p>
-
-        <p class="font-m c-9 quem-sou__texto">A psicologia me trouxe de novo para o campo das possibilidades e me deu autonomia, me fazendo acreditar que todos deveriam experimentar a sensação de ter a mente livre de aprisionamentos e limitações. Eu aceitei o desafio de correr atrás de algo que eu sempre quis e me coloquei a disposição para trilhar o percurso, mesmo sem saber qual seria o destino final, hoje sou movido por esse desejo e pouco importa a chegada quando a caminhada me acrescenta tanto.</p>
-
-        <span class="font-m c-9 quem-sou__secundario">Atenciosamente.</span>
-
-        <span class="font-m c-9 quem-sou__secundario">Fellype Ferraz Pecly.</span> 
-
-        <span class="font-m c-9 quem-sou__secundario">CRP: 05/67330</span>
+        <div class="depressao__conteudo depressao__conteudo--mb is-hover">
+            <a href="#" class="depressao__link">
+                <h2 class="font-l c-11 depressao__subtitulo">Título: Texto 4</h2>
+                
+                <span class="font-s-b c-9 depressao__data-publicacao">Data da publicação: 01/01/0101</span>
+                
+                <span class="font-s-b c-9 depressao__autor">Autor: Fellype Ferraz Pecly</span>
+            </a>
+        </div>
     </main>
-    
+
     <footer class="footer__bg">
         <div class="footer container">
             <div class="footer__caixa-logo">
-                <img src="./img/icone/logo.svg" alt="" class="footer__logo" width="140" height="43">
+                <img src="../img/icone/logo.svg" alt="" class="footer__logo" width="140" height="43">
             </div>
 
             <div class="footer__contatos">
@@ -119,7 +145,7 @@
             <nav class="footer__menu-secundario">
                 <ul class="font-m c-11 footer__lista">
                     <li class="footer__item">
-                        <a href="./index.html" class="footer__link is-hover">início</a>
+                        <a href="../index.html" class="footer__link is-hover">início</a>
                     </li>
 
                     <li class="footer__item">
@@ -142,8 +168,7 @@
         </div>
     </footer>
 
-    <script src="./js/menu-temas.js"></script>
-    <script src="./js/menu-mobile.js"></script>
-    <script src="./js/pagina-atual.js"></script>
+    <script src="../js/menu-temas.js"></script>
+    <script src="../js/menu-mobile.js"></script>
 </body>
-</html>
+</html> 

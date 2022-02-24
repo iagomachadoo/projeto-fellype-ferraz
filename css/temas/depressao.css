@@ -1,14 +1,14 @@
-.ansiedade__titulo{
+.depressao__titulo{
     padding-top: 60px;
     margin-bottom: 60px;
 }
 
-.ansiedade__img{
+.depressao__img{
     border: 1px solid var(--c11);
     margin-bottom: 60px;
 }
 
-.ansiedade__conteudo{
+.depressao__conteudo{
     padding: 20px;
     background-color: var(--p3);
     border-radius: 5px;
@@ -16,59 +16,60 @@
     transition: .2s;
 }
 
-.ansiedade__conteudo.is-hover:hover{
+.depressao__conteudo.is-hover:hover{
     background-color: var(--s1);
 }
 
-.ansiedade__link{
+.depressao__link{
     display: block;
 }
 
 
-.ansiedade__subtitulo,
-.ansiedade__data-publicacao{
+.depressao__subtitulo,
+.depressao__data-publicacao{
     border-bottom: 2px solid var(--p4);
     padding-bottom: 12px;
     margin-bottom: 12px;
 }
 
-.ansiedade__data-publicacao,
-.ansiedade__autor{
+.depressao__data-publicacao,
+.depressao__autor{
     display: block;
 }
 
-.ansiedade__conteudo--mb{
+.depressao__conteudo--mb{
     margin-bottom: 60px;
 }
 
 @media(max-width: 800px){
-    .ansiedade__titulo{
+    .depressao__titulo{
         margin-bottom: 40px;
     }
 
-    .ansiedade__img{
+    .depressao__img{
         margin-bottom: 40px;
     }
 
-    .ansiedade__conteudo--mb{
+    .depressao__conteudo--mb{
         margin-bottom: 40px;
     }
 }
 
 @media(max-width: 600px){
-    .header__lista--ansiedade,
-    .sub-menu__lista--ansiedade{
+    .header__lista--depressao,
+    .sub-menu__lista--depressao{
         background-color: var(--p3);
     }
-    .ansiedade__titulo{
+
+    .depressao__titulo{
         margin-bottom: 32px;
     }
 
-    .ansiedade__img{
+    .depressao__img{
         margin-bottom: 32px;
     }
 
-    .ansiedade__conteudo--mb{
+    .depressao__conteudo--mb{
         margin-bottom: 32px;
     }
 }
