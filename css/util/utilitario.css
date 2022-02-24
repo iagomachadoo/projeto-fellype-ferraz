@@ -32,3 +32,17 @@
     height: 2px;
     background-color: var(--p5);
 }
+
+.link-ativo{
+    position: relative;
+}
+
+.link-ativo::before{
+    content: "";
+    display: block;
+    background-color: var(--t1);
+    width: 100%;
+    height: 2px;
+    top: calc(100% + 4px);
+    position: absolute;
+}
