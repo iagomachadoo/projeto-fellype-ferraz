@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site dedicado ao agendamento de sessões de terapia e divulgação de conteúdos relacionado ao tema.">
+    <title>seu.psi</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/style.css" as="style">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__principal container">
+            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
+
+            <div>
+                <p class="font-m-b-b c-11">Fellype Ferraz Pecly</p>
+
+                <p class="font-xs c-9">Psicólogo Clínico | CRP - 05/67330</p>
+            </div>
+        </div>
+
+        <nav class="header__menu">
+            <button class="btn__menu--mobile btn__menu--after" aria-expanded="false" aria-controls="header__lista" aria-haspopup="true" aria-label="Abrir menu"></button>
+
+            <ul class="header__lista container font-s-b p-1" id="header__lista" role="menu">
+                <li class="header__item">
+                    <a href="./" class="header__link header__link--before">início</a>
+                </li>
+
+                <li class="header__item">
+                    <a href="./quem-sou.html" class="header__link header__link--before">quem sou</a>
+                </li>
+
+                <li class="header__item header__item--relative ">
+                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false" aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</a>
+
+                    <div class="header__sub-menu">
+                        <ul class="sub-menu__lista" id="sub-menu__lista" role="menu">
+                            <li class="sub-menu__item">
+                                <a href="./temas/ansiedade.html" class="sub-menu__link sub-menu__link--after">Ansiedade</a>
+                            </li>
+
+                            <li class="sub-menu__item">
+                                <a href="./temas/depressao.html" class="sub-menu__link sub-menu__link--after">Depressão</a>
+                            </li>
+
+                            <li class="sub-menu__item">
+                                <a href="./temas/luto.html" class="sub-menu__link sub-menu__link--after">Luto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="header__item">
+                    <a href="./mensagem.html" class="header__link header__link--before">mensagens</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="postagem-recente container">
+        <h1 class="font-xxl c-11 postagem-recente__titulo">Postagens recentes.</h1>
+
+        <ul class="postagem-recente__lista">
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_depressao/depressao_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-depressão-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Depressão - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_ansiedade/ansiedade_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-ansiedade-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Ansiedade - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_luto/luto_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-luto-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Luto - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_ansiedade/ansiedade_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-ansiedade-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Ansiedade - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_luto/luto_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-luto-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Luto - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+
+            <li class="postagem-recente__item">
+                <a 
+                href="./temas/tema_depressao/depressao_t1.html" class="postagem-recente__link">
+                    <img 
+                    src="./img/img-postagens/img-depressão-postagem-recente-320-360.jpg" 
+                    alt="" 
+                    class="postagem-recente__img" 
+                    width="320" 
+                    height="360">
+
+                    <h2 class="font-m-b c-9 postagem-recente__subtitulo">Depressão - título</h2>
+            
+                    <span class="font-s p-1">01/01/0000</span>
+                </a>
+            </li>
+        </ul>
+    </main>
+
+    <footer class="footer__bg">
+        <div class="footer container">
+            <div class="footer__caixa-logo">
+                <img src="./img/icone/logo.svg" alt="" class="footer__logo" width="140" height="43">
+            </div>
+
+            <div class="footer__contatos">
+                <h3 class="font-l c-11 footer__titulo">contatos</h3>
+
+                <ul class="font-s c-9 footer__lista">
+                    <li class="footer__item footer__item--before-1">
+                        <a href="tel:+55 22 99930-8755" class="footer__link is-hover">+55 22 99930-8755
+                        </a>
+                    </li>
+
+                    <li class="footer__item footer__item--before-2">
+                        <a href="mailto:fellype.pecly@gmail.com" class="footer__link is-hover">fellype.pecly@gmail.com
+                        </a>
+                    </li>
+
+                    <li class="footer__item footer__item--before-3">
+                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                    </li>
+
+                    <li class="footer__item footer__item--before-4">
+                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="footer__menu-secundario">
+                <ul class="font-m-b c-11 footer__lista">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link is-hover">início</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a href="./quem-sou.html" class="footer__link is-hover">quem sou</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a href="#" class="footer__link is-hover">temas</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a href="#" class="footer__link is-hover">mensagens</a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a href="#" class="footer__link is-hover">termos e condições</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="./js/menu-temas.js"></script>
+    <script src="./js/menu-mobile.js"></script>
+</body>
+</html> 

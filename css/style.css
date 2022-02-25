@@ -17,6 +17,8 @@
 
 @import '/css/temas/tema_ansiedade/ansiedade_texto.css';
 
+@import '../css/postagem_recente/postagem_recente.css';
+
 @import '../css/mensagem/mensagem.css';
 
 @import './util/utilitario.css';
