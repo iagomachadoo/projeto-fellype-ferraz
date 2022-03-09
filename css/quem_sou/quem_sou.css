@@ -1,11 +1,5 @@
-.quem-sou{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .quem-sou__img{
     margin: 0 auto 60px auto;
-    border: 1px solid var(--c11);
 }
 
 .quem-sou__titulo{
@@ -28,11 +22,6 @@
 }
 
 @media(max-width: 600px){
-    .header__lista--quem-sou,
-    .sub-menu__lista--quem-sou{
-        background-color: var(--p3);
-    }
-
     .quem-sou{
         padding-bottom: 32px;
     }

@@ -71,10 +71,6 @@
     transition: .2s;
 }
 
-.is-hover:hover{
-    color: var(--p5);
-}
-
 @media(max-width: 800px){
     .footer{
         grid-template-columns: repeat(2, 1fr);

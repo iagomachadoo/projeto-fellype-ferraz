@@ -18,8 +18,8 @@
 
 <body>
     <header class="header">
-        <div class="header__principal container">
-            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
+        <div class="header__principal container container__cabecalho">
+            <img src="./img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43">
 
             <div>
                 <p class="font-m-b c-11">Fellype Ferraz Pecly</p>
@@ -29,43 +29,47 @@
         </div>
 
         <nav class="header__menu">
-            <button class="btn__menu--mobile btn__menu--after" aria-expanded="false" aria-controls="header__lista"
-                aria-haspopup="true" aria-label="Abrir menu"></button>
+            <button 
+            class="btn__menu--mobile btn__menu--after" aria-expanded="false" 
+            aria-controls="header__lista"
+            aria-haspopup="true" 
+            aria-label="Abrir menu">
+            </button>
 
-            <ul class="header__lista container font-s-b p-1" id="header__lista" role="menu">
+            <ul 
+            class="header__lista font-s-b p-1" id="header__lista" 
+            role="menu">
                 <li class="header__item">
-                    <a href="./index.html" class="header__link header__link--before">início</a>
+                    <a href="./index.html" class="header__link link-hover">início</a>
                 </li>
 
                 <li class="header__item">
-                    <a href="./quem-sou.html" class="header__link header__link--before">quem sou</a>
+                    <a href="./quem-sou.html" class="header__link link-hover">quem sou</a>
                 </li>
 
                 <li class="header__item header__item--relative ">
-                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false"
-                        aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</a>
+                    <button class="header__btn btn-hover header__btn--seta" aria-expanded="false"
+                        aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</button>
 
                     <div class="header__sub-menu">
                         <ul class="sub-menu__lista" id="sub-menu__lista" role="menu">
                             <li class="sub-menu__item">
-                                <a href="./temas/ansiedade.html"
-                                    class="sub-menu__link sub-menu__link--after">Ansiedade</a>
+                                <a href="./temas/ansiedade.html" class="sub-menu__link link-hover">Ansiedade</a>
                             </li>
 
                             <li class="sub-menu__item">
-                                <a href="./temas/depressao.html"
-                                    class="sub-menu__link sub-menu__link--after">Depressão</a>
+                                <a href="./temas/depressao.html" class="sub-menu__link link-hover">Depressão</a>
                             </li>
 
                             <li class="sub-menu__item">
-                                <a href="./temas/luto.html" class="sub-menu__link sub-menu__link--after">Luto</a>
+                                <a href="./temas/luto.html" class="sub-menu__link link-hover">Luto</a>
                             </li>
                         </ul>
                     </div>
                 </li>
 
                 <li class="header__item">
-                    <a href="./mensagem.html" class="header__link header__link--before">mensagens</a>
+                    <a href="./mensagem.html" class="header__link link-hover">mensagens</a>
                 </li>
             </ul>
         </nav>
@@ -87,41 +91,43 @@
                 <h1 class="font-xxl c-11 intro__titulo">Como faço para marcar um atendimento?</h1>
 
                 <h2 class="font-l c-9 intro__subtitulo">Segue abaixo algumas opções de contato.</h2>
+
+                <div class="intro__contatos">
+                    <a href="http://web.whatsapp.com/send?phone=552299930-8755" target="_blank" rel="noopener noreferrer" class="intro__link">
+    
+                        <div class="intro__icone">
+                            <img src="./img/icone/agendamento/whatsapp-agendamento.svg" alt="Ícone do whatsapp" width="60"
+                                height="60" class="intro__img">
+                        </div>
+    
+                        <span class="font-m c-9 is-hover">+55 22 99930-8755</span>
+                    </a>
+    
+                    <a href="http://www.instagram.com/seu.psi/" target="_blank" rel="noopener noreferrer"
+                        class="intro__link intro__link--after">
+    
+                        <div class="intro__icone">
+                            <img src="./img/icone/agendamento/instagram-agendamento.svg" alt="Ícone do instagran" width="60"
+                                height="60" class="intro__img">
+                        </div>
+    
+                        <span class="font-m c-9 is-hover">@seu.psi</span>
+                    </a>
+    
+                    <a href="mailto:fellype.pecly@gmail.com" class="intro__link intro__link--after">
+    
+                        <div class="intro__icone">
+                            <img src="./img/icone/agendamento/envelope-agendamento.svg" alt="Ícone de email" width="60"
+                                height="60" class="intro__img">
+                        </div>
+    
+                        <span class="font-m c-9 is-hover">fellype.pecly@gmail.com</span>
+                    </a>
+    
+                    <span class="intro__info font-xs c-9">*Clique em uma das opções e você será redirecionado para o agendamento.</span>
+                </div>
             </div>
 
-            <div class="intro__contatos container">
-                <a href="http://web.whatsapp.com/send?phone=552299930-8755" target="_blank" rel="noopener noreferrer"
-                    class="intro__link intro__link--after  is-hover">
-
-                    <div class="intro__icone">
-                        <img src="./img/icone/agendamento/whatsapp-agendamento.svg" alt="Ícone do whatsapp" width="60"
-                            height="60" class="intro__img">
-                    </div>
-
-                    <span class="font-m c-9">+55 22 99930-8755</span>
-                </a>
-
-                <a href="http://www.instagram.com/seu.psi/" target="_blank" rel="noopener noreferrer"
-                    class="intro__link intro__link--after is-hover">
-
-                    <div class="intro__icone">
-                        <img src="./img/icone/agendamento/instagram-agendamento.svg" alt="Ícone do instagran" width="60"
-                            height="60" class="intro__img">
-                    </div>
-
-                    <span class="font-m c-9">@seu.psi</span>
-                </a>
-
-                <a href="mailto:fellype.pecly@gmail.com" class="intro__link intro__link--after is-hover">
-
-                    <div class="intro__icone">
-                        <img src="./img/icone/agendamento/envelope-agendamento.svg" alt="Ícone de email" width="60"
-                            height="60" class="intro__img">
-                    </div>
-
-                    <span class="font-m c-9">fellype.pecly@gmail.com</span>
-                </a>
-            </div>
         </div>
     </main>
 
@@ -206,20 +212,20 @@
                     excludente, que acolhe o sofrimento psíquico através da ótica da psicanálise e ajuda a construir uma
                     clínica que vai para além do setting analítico tradicional.</p>
 
-                <a href="./quem-sou.html" class="btn">saiba mais</a>
+                <a href="./quem-sou.html" class="btn btn--hover">saiba mais</a>
             </div>
 
             <picture>
                 <source media="(max-width: 800px)" srcset="./img/img-home/img-perfil-300-311.jpg" type="image/jpg">
 
                 <img src="./img/img-home/img-perfil-560-580.jpg" alt="Ilustração de Fellype Ferraz Pecly" width="560"
-                    height="580" class="sobre-mim__img">
+                    height="580" class="sobre-mim__img img--border">
             </picture>
         </div>
     </article>
 
     <article class="temas container">
-        <h2 class="font-xxl c-11">Temas.</h2>
+        <h2 class="font-xxl c-11 temas__titulo">Temas.</h2>
 
         <ul class="corrossel-container">
             <div class="corressel" id="corressel">
@@ -228,10 +234,10 @@
                         <div class="tema-img">
                             <img src="./img/img-tema/img-depressão-tema-380-440.jpg"
                                 alt="Desenho de uma pessoa com a mão enfiada um buraco no peito" width="380"
-                                height="440">
+                                height="440" class="img--border">
                         </div>
 
-                        <h3 class="font-m c-9">Depressão</h3>
+                     <h3 class="font-m c-9">Depressão</h3>
                     </a>
                 </li>
 
@@ -239,10 +245,10 @@
                     <a href="./temas/ansiedade.html">
                         <div class="tema-img">
                             <img src="./img/img-tema/img-ansiedade-tema-380-440.jpg"
-                                alt="Desenho de uma pessoa com a cabeça solta no espaço" width="380" height="440">
+                                alt="Desenho de uma pessoa com a cabeça solta no espaço" width="380" height="440" class="img--border">
                         </div>
 
-                        <h3 class="font-m c-9">Ansiedade</h3>
+                     <h3 class="font-m c-9">Ansiedade</h3>
                     </a>
                 </li>
 
@@ -251,7 +257,7 @@
                         <div class="tema-img">
                             <img src="./img/img-tema/img-luto-tema-380-440.jpg"
                                 alt="Desenho de uma pessoa com sem a cabeça e com um buraco no peito" width="380"
-                                height="440">
+                                height="440" class="img--border">
                         </div>
 
                         <h3 class="font-m c-9">Luto</h3>
@@ -263,7 +269,7 @@
                         <div class="tema-img">
                             <img src="./img/img-tema/img-depressão-tema-380-440.jpg"
                                 alt="Desenho de uma pessoa com a mão enfiada um buraco no peito" width="380"
-                                height="440">
+                                height="440" class="img--border">
                         </div>
                         <h3 class="font-m c-9">Depressão</h3>
                     </a>
@@ -273,10 +279,10 @@
                     <a href="">
                         <div class="tema-img">
                             <img src="./img/img-tema/img-ansiedade-tema-380-440.jpg"
-                                alt="Desenho de uma pessoa com a cabeça solta no espaço" width="380" height="440">
+                                alt="Desenho de uma pessoa com a cabeça solta no espaço" width="380" height="440" class="img--border">
                         </div>
 
-                        <h3 class="font-m c-9">Ansiedade</h3>
+                     <h3 class="font-m c-9">Ansiedade</h3>
                     </a>
                 </li>
 
@@ -285,7 +291,7 @@
                         <div class="tema-img">
                             <img src="./img/img-tema/img-luto-tema-380-440.jpg"
                                 alt="Desenho de uma pessoa com sem a cabeça e com um buraco no peito" width="380"
-                                height="440">
+                                height="440" class="img--border">
                         </div>
 
                         <h3 class="font-m c-9">Luto</h3>
@@ -313,7 +319,7 @@
                         <div class="postagens__block-img">
                             <img src="./img/img-postagens/img-depressão-postagem-recente-320-360.jpg"
                                 alt="Desenho de uma pessoa com a mão enfiada um buraco no peito" width="320"
-                                height="360" class="postagens__img">
+                                height="360" class="postagens__img img--border">
                         </div>
 
                         <h3 class="font-m c-9 postagens__subtitulo">Depressão - título</h3>
@@ -327,7 +333,7 @@
                         <div class="postagens__block-img">
                             <img src="./img/img-postagens/img-ansiedade-postagem-recente-320-360.jpg"
                                 alt="Desenho de uma pessoa com a cabeça solta no espaço" width="320" height="360"
-                                class="postagens__img">
+                                class="postagens__img img--border">
                         </div>
 
                         <h3 class="font-m c-9 postagens__subtitulo">Ansiedade - título</h3>
@@ -341,7 +347,7 @@
                         <div class="postagens__block-img">
                             <img src="./img/img-postagens/img-luto-postagem-recente-320-360.jpg"
                                 alt="Desenho de uma pessoa com sem a cabeça e com um buraco no peito" width="320"
-                                height="360" class="postagens__img">
+                                height="360" class="postagens__img img--border">
                         </div>
 
                         <h3 class="font-m c-9 postagens__subtitulo">Luto - título</h3>
@@ -351,7 +357,7 @@
                 </li>
             </ul>
 
-            <a href="./postagens_recentes.html" class="btn btn--mt">mais postagens</a>
+            <a href="./postagens_recentes.html" class="btn btn--mt btn--hover">mais postagens</a>
         </div>
     </section>
 
@@ -365,7 +371,7 @@
 
         <picture>
             <img src="./img/img-home/img-caixa-mensagem-360-400.jpg" alt="Imagem de um balão de fala"
-                class="caixa-mensagem__img">
+                class="caixa-mensagem__img img--border">
         </picture>
 
         <div class="caixa-mensagem__mensagem">
@@ -379,7 +385,7 @@
                 dummy text ever since the 1500s.</p>
         </div>
 
-        <a href="./mensagem.html" class="btn-link btn-link--after">deixe sua mensagem</a>
+        <a href="./mensagem.html" class="btn-link btn-link--after btn-link--hover">deixe sua mensagem</a>
     </section>
 
     <footer class="footer__bg">
@@ -393,21 +399,21 @@
 
                 <ul class="font-s c-9 footer__lista">
                     <li class="footer__item footer__item--before-1">
-                        <a href="tel:+55 22 99930-8755" class="footer__link is-hover">+55 22 99930-8755
+                        <a href="tel:+55 22 99930-8755" class="footer__link link-hover">+55 22 99930-8755
                         </a>
                     </li>
 
                     <li class="footer__item footer__item--before-2">
-                        <a href="mailto:fellype.pecly@gmail.com" class="footer__link is-hover">fellype.pecly@gmail.com
+                        <a href="mailto:fellype.pecly@gmail.com" class="footer__link link-hover">fellype.pecly@gmail.com
                         </a>
                     </li>
 
                     <li class="footer__item footer__item--before-3">
-                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                        <a href="" class="footer__link link-hover">@seu.psi</a>
                     </li>
 
                     <li class="footer__item footer__item--before-4">
-                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                        <a href="" class="footer__link link-hover">@seu.psi</a>
                     </li>
                 </ul>
             </div>
@@ -415,23 +421,23 @@
             <nav class="footer__menu-secundario">
                 <ul class="font-m c-11 footer__lista">
                     <li class="footer__item">
-                        <a href="./index.html" class="footer__link is-hover">início</a>
+                        <a href="./index.html" class="footer__link link-hover">início</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="./quem-sou.html" class="footer__link is-hover">quem sou</a>
+                        <a href="./quem-sou.html" class="footer__link link-hover">quem sou</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="./postagens_recentes.html" class="footer__link is-hover">postagens</a>
+                        <a href="./postagens_recentes.html" class="footer__link link-hover">postagens</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="./mensagem.html" class="footer__link is-hover">mensagens</a>
+                        <a href="./mensagem.html" class="footer__link link-hover">mensagens</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="" class="footer__link is-hover">termos e condições</a>
+                        <a href="" class="footer__link link-hover">termos e condições</a>
                     </li>
                 </ul>
             </nav>

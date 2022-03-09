@@ -10,7 +10,7 @@ img{
 
 img[src$=".jpg"]{
     border-radius: 5px;
-}/*todo elemento img que tiver o atributo src e terminar com .jpg*/
+}
 
 a{
     color: inherit;

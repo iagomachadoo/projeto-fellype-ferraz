@@ -11,11 +11,12 @@
 
 @import './quem_sou/quem_sou.css';
 
+@import './temas/temas_utilitario.css';
 @import './temas/ansiedade.css';
 @import './temas/depressao.css';
 @import './temas/luto.css';
 
-@import '/css/temas/tema_ansiedade/ansiedade_texto.css';
+@import '/css/temas/tema_conteudo/tema_texto.css';
 
 @import '../css/postagem_recente/postagem_recente.css';
 

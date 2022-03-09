@@ -1,7 +1,5 @@
 .postagens__bg{
     background-color: var(--p3);
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .postagens__titulo{
@@ -22,10 +20,6 @@
     padding: 20px;
     background-color: var(--p2);
     margin-bottom: 20px;
-}
-
-.postagens__img{
-    border: 1px solid var(--c11);
 }
 
 .postagens__subtitulo{

@@ -18,7 +18,7 @@
 
 <body>
     <header class="header">
-        <div class="header__principal container">
+        <div class="header__principal container container__cabecalho">
             <a href="../index.html">
                 <img src="../img/icone/logo.svg" alt="Logo seu.psi" width="140" height="43" class="header__logo">
             </a>
@@ -34,89 +34,87 @@
             <button class="btn__menu--mobile btn__menu--after" aria-expanded="false" aria-controls="header__lista"
                 aria-haspopup="true" aria-label="Abrir menu"></button>
 
-            <ul class="header__lista header__lista--ansiedade container font-s-b p-1" id="header__lista" role="menu">
+            <ul class="header__lista menu-mobile font-s-b p-1" id="header__lista" role="menu">
                 <li class="header__item">
-                    <a href="../index.html" class="header__link header__link--before">início</a>
+                    <a href="../index.html" class="header__link link-hover">início</a>
                 </li>
 
                 <li class="header__item">
-                    <a href="../quem-sou.html" class="header__link header__link--before">quem sou</a>
+                    <a href="../quem-sou.html" class="header__link link-hover">quem sou</a>
                 </li>
 
                 <li class="header__item header__item--relative ">
-                    <a href="#" class="header__link header__link--before header__link--seta" aria-expanded="false"
-                        aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</a>
+                    <button class="header__btn btn-hover header__btn--seta" aria-expanded="false"
+                        aria-controls="sub-menu__lista" aria-haspopup="true" aria-label="Abrir temas">temas</button>
 
                     <div class="header__sub-menu">
-                        <ul class="sub-menu__lista sub-menu__lista--ansiedade" id="sub-menu__lista" role="menu">
+                        <ul class="sub-menu__lista " id="sub-menu__lista" role="menu">
                             <li class="sub-menu__item">
-                                <a href="../temas/ansiedade.html"
-                                    class="sub-menu__link sub-menu__link--after">Ansiedade</a>
+                                <a href="../temas/ansiedade.html" class="sub-menu__link link-hover">Ansiedade</a>
                             </li>
 
                             <li class="sub-menu__item">
-                                <a href="../temas/depressao.html"
-                                    class="sub-menu__link sub-menu__link--after">Depressão</a>
+                                <a href="../temas/depressao.html" class="sub-menu__link link-hover">Depressão</a>
                             </li>
 
                             <li class="sub-menu__item">
-                                <a href="../temas/luto.html" class="sub-menu__link sub-menu__link--after">Luto</a>
+                                <a href="../temas/luto.html" class="sub-menu__link link-hover">Luto</a>
                             </li>
                         </ul>
                     </div>
                 </li>
 
                 <li class="header__item">
-                    <a href="../mensagem.html" class="header__link header__link--before">mensagens</a>
+                    <a href="../mensagem.html" class="header__link link-hover">mensagens</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="luto container">
-        <h1 class="font-xxl c-11 luto__titulo">Notas sobre o luto.</h1>
+    <main class="tema container">
+        <h1 class="font-xxl c-11 tema__titulo">Notas sobre o luto.</h1>
 
         <picture>
-            <img src="../img/img-capa/luto-capa-1160-556.jpg" alt="" class="luto__img" width="1160" height="556">
+            <img src="../img/img-capa/luto-capa-1160-556.jpg" alt="" class="tema__img img--border" width="1160" height="556">
         </picture>
 
-        <div class="luto__conteudo is-hover">
-            <a href="../temas/tema_luto/luto_t1.html" class="luto__link">
-                <h2 class="font-l c-11 luto__subtitulo">Título: Texto 1</h2>
+        <div class="tema__conteudo tema__conteudo--hover">
+            <a href="../temas/tema_luto/luto_t1.html" class="tema__link">
+                <h2 class="font-l c-11 tema__subtitulo">Título: Texto 1</h2>
 
-                <span class="font-s-b c-9 luto__data-publicacao">Data da publicação: 01/01/0101</span>
+                <span class="font-s-b c-9 tema__publicacao">Data da publicação: 01/01/0101</span>
 
-                <span class="font-s-b c-9 luto__autor">Autor: Fellype Ferraz Pecly</span>
+                <span class="font-s-b c-9 tema__autor">Autor: Fellype Ferraz Pecly</span>
             </a>
         </div>
 
-        <div class="luto__conteudo is-hover">
-            <a href="#" class="luto__link">
-                <h2 class="font-l c-11 luto__subtitulo">Título: Texto 2</h2>
+        <div class="tema__conteudo tema__conteudo--hover">
+            <a href="#" class="tema__link">
+                <h2 class="font-l c-11 tema__subtitulo">Título: Texto 2</h2>
 
-                <span class="font-s-b c-9 luto__data-publicacao">Data da publicação: 01/01/0101</span>
+                <span class="font-s-b c-9 tema__publicacao">Data da publicação: 01/01/0101</span>
 
-                <span class="font-s-b c-9 luto__autor">Autor: Fellype Ferraz Pecly</span>
+                <span class="font-s-b c-9 tema__autor">Autor: Fellype Ferraz Pecly</span>
             </a>
         </div>
 
-        <div class="luto__conteudo is-hover">
-            <a href="#" class="luto__link">
-                <h2 class="font-l c-11 luto__subtitulo">Título: Texto 3</h2>
+        <div class="tema__conteudo tema__conteudo--hover">
+            <a href="#" class="tema__link">
+                <h2 class="font-l c-11 tema__subtitulo">Título: Texto 3</h2>
 
-                <span class="font-s-b c-9 luto__data-publicacao">Data da publicação: 01/01/0101</span>
+                <span class="font-s-b c-9 tema__publicacao">Data da publicação: 01/01/0101</span>
 
-                <span class="font-s-b c-9 luto__autor">Autor: Fellype Ferraz Pecly</span>
+                <span class="font-s-b c-9 tema__autor">Autor: Fellype Ferraz Pecly</span>
             </a>
         </div>
 
-        <div class="luto__conteudo luto__conteudo--mb is-hover">
-            <a href="#" class="luto__link">
-                <h2 class="font-l c-11 luto__subtitulo">Título: Texto 4</h2>
+        <div class="tema__conteudo tema__conteudo--hover">
+            <a href="#" class="tema__link">
+                <h2 class="font-l c-11 tema__subtitulo">Título: Texto 4</h2>
 
-                <span class="font-s-b c-9 luto__data-publicacao">Data da publicação: 01/01/0101</span>
+                <span class="font-s-b c-9 tema__publicacao">Data da publicação: 01/01/0101</span>
 
-                <span class="font-s-b c-9 luto__autor">Autor: Fellype Ferraz Pecly</span>
+                <span class="font-s-b c-9 tema__autor">Autor: Fellype Ferraz Pecly</span>
             </a>
         </div>
     </main>
@@ -132,21 +130,21 @@
 
                 <ul class="font-s c-9 footer__lista">
                     <li class="footer__item footer__item--before-1">
-                        <a href="tel:+55 22 99930-8755" class="footer__link is-hover">+55 22 99930-8755
+                        <a href="tel:+55 22 99930-8755" class="footer__link link-hover">+55 22 99930-8755
                         </a>
                     </li>
 
                     <li class="footer__item footer__item--before-2">
-                        <a href="mailto:fellype.pecly@gmail.com" class="footer__link is-hover">fellype.pecly@gmail.com
+                        <a href="mailto:fellype.pecly@gmail.com" class="footer__link link-hover">fellype.pecly@gmail.com
                         </a>
                     </li>
 
                     <li class="footer__item footer__item--before-3">
-                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                        <a href="" class="footer__link link-hover">@seu.psi</a>
                     </li>
 
                     <li class="footer__item footer__item--before-4">
-                        <a href="" class="footer__link is-hover">@seu.psi</a>
+                        <a href="" class="footer__link link-hover">@seu.psi</a>
                     </li>
                 </ul>
             </div>
@@ -154,23 +152,23 @@
             <nav class="footer__menu-secundario">
                 <ul class="font-m c-11 footer__lista">
                     <li class="footer__item">
-                        <a href="../index.html" class="footer__link is-hover">início</a>
+                        <a href="../index.html" class="footer__link link-hover">início</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="../quem-sou.html" class="footer__link is-hover">quem sou</a>
+                        <a href="../quem-sou.html" class="footer__link link-hover">quem sou</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="../postagens_recentes.html" class="footer__link is-hover">postagens</a>
+                        <a href="../postagens_recentes.html" class="footer__link link-hover">postagens</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="../mensagem.html" class="footer__link is-hover">mensagens</a>
+                        <a href="../mensagem.html" class="footer__link link-hover">mensagens</a>
                     </li>
 
                     <li class="footer__item">
-                        <a href="#" class="footer__link is-hover">termos e condições</a>
+                        <a href="#" class="footer__link link-hover">termos e condições</a>
                     </li>
                 </ul>
             </nav>

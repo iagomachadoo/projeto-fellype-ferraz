@@ -1,7 +1,5 @@
 .sobre-mim__bg{
     background-color: var(--p3);
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .sobre-mim__cotainer{
@@ -17,10 +15,6 @@
 
 .sobre-mim__texto{
     margin-bottom: 32px;
-}
-
-.sobre-mim__img{
-    border: 1px solid var(--c11);
 }
 
 @media(max-width: 800px){

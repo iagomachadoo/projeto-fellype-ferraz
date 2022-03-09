@@ -9,7 +9,8 @@
 .header__menu{
     background-color: var(--p3);
     display: flex;
-    padding: 12px 0 4px 12px;
+    padding: 20px;
+    justify-content: center;
 }
 
 .btn__menu--mobile{
@@ -22,49 +23,36 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
 .header__link{
     display: block;
 }
 
-.header__link--before{
-    position: relative;
+.header__btn{
+    border: none;
+    background-color: inherit;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
 }
 
-.header__link--before::before{
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: var(--t1);
-    position: absolute;
-    top: calc(100% + 4px);
-    transition: .2s ease-in;
-}
-
-.header__link--before:hover::before{
-    width: 100%;
-}
-
-.header__link--seta{
+.header__btn--seta{
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-.header__link--seta::after{
+.header__btn--seta::after{
     content: "";
     display: block;
     width: 10px;
     height: 6px;
     background: url("../../img/icone/seta-menu.svg");
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
-.header__link--seta-180-deg::after{
+.header__btn--seta-180-deg::after{
     transform: rotate(-180deg);
 }
 
@@ -77,6 +65,7 @@
     background-color: var(--p3);
     padding: 12px;
     top: 44px;
+    left: -32px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -93,19 +82,6 @@
     padding: 12px 4px;
     flex-direction: column;
     row-gap: 4px;
-}
-
-.sub-menu__link--after::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: var(--t1);
-    transition: .2s ease-out;
-}
-
-.sub-menu__link--after:hover::after{
-    width: 100%;
 }
 
 @media(max-width: 600px){
@@ -145,13 +121,13 @@
     .header__lista{
         flex-direction: column;
         gap: 8px;
-        background-color: var(--p2);
         border-radius: 5px;
         position: absolute;
         top: 44px;
         left: 0;
         transition: .2s;
         visibility: hidden;
+        background-color: var(--p3);
     }
 
     .header__link{
@@ -175,7 +151,6 @@
         top: 0;
         left: 107px;
         border-radius: 5px;
-        background-color: var(--p2);
     }
 
     .sub-menu__link::after{

@@ -1,10 +1,5 @@
-.mensagem{
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .mensagem__titulo{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .mensagem__dados{
@@ -26,7 +21,7 @@
 }
 
 .mensagem__dados--mb{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .mensagem__text-area{
@@ -53,11 +48,6 @@
 }
 
 @media(max-width: 600px){
-    .header__lista--mensagem,
-    .sub-menu__lista--mensagem{
-        background-color: var(--p3);
-    }
-
     .mensagem{
         padding-top: 40px;
         padding-bottom: 40px;

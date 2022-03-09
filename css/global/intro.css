@@ -1,7 +1,5 @@
 .intro__bg{
     background-color: var(--p3);
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
 
 .intro__titulo{
@@ -15,9 +13,10 @@
 .intro__contatos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
+    gap: 32px 60px;
     justify-items: center;
     max-width: 820px;
+    margin: auto;
 }
 
 .intro__link{
@@ -26,21 +25,7 @@
     align-items: center;
     gap: 20px;
     position: relative;
-}
-
-.intro__link--after::after{
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: var(--t1);
-    position: absolute;
-    top: 100%;
-    transition: .2s ease-out;
-}
-
-.is-hover:hover::after{
-    width: 100%;
+    transition: .2s;
 }
 
 .intro__icone{
@@ -52,6 +37,14 @@
 .intro__img{
     width: 100%;
     padding: 20px;
+}
+
+.intro__link:hover .is-hover{
+    color: var(--t1);
+}
+
+.intro__info{
+    grid-column: 1/-1;
 }
 
 @media(max-width: 1000px){
@@ -87,9 +80,5 @@
     .intro__contatos{
         grid-template-columns: 1fr;
         gap: 32px;
-    }
-
-    .intro__link--after::after{
-        display: none;
     }
 }

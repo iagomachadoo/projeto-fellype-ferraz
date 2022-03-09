@@ -1,10 +1,8 @@
 .temas{
-    padding-top: 60px;
-    padding-bottom: 60px;
     position: relative;
 }
 
-.temas h2{
+.temas__titulo{
     margin-bottom: 40px;
     max-width: initial;
 }
@@ -31,10 +29,6 @@
 
 .slide a{
     display: block;
-}
-
-.tema-img img{
-    border: 1px solid var(--c11);
 }
 
 .slide h3{
