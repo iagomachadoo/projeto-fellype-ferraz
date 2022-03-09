@@ -94,6 +94,7 @@
     .header__menu{
         background-color: inherit;
         position: relative;
+        justify-content: left;
     }
 
     .btn__menu--mobile{
@@ -123,14 +124,27 @@
         gap: 8px;
         border-radius: 5px;
         position: absolute;
-        top: 44px;
+        top: 48px;
         left: 0;
         transition: .2s;
         visibility: hidden;
         background-color: var(--p3);
+        padding: 0 8px;
+        border: 1px solid var(--p4);
     }
 
-    .header__link{
+    .header__item,
+    .sub-menu__item{
+        border-bottom: 1px solid var(--p4);
+    }
+
+    .header__item--last,
+    .sub-menu__item--last{
+        border: none;
+    }
+
+    .header__link,
+    .header__btn{
         padding: 12px 4px;
     }
 
@@ -143,17 +157,12 @@
         left: 12px;
     }
 
-    .header__link--before::before{
-        display: none;
-    }
-
     .sub-menu__lista{
         top: 0;
-        left: 107px;
+        left: 100px;
         border-radius: 5px;
-    }
-
-    .sub-menu__link::after{
-        display: none;
+        border: 1px solid var(--p4);
+        padding: 0 8px;
+        text-align: center;
     }
 }

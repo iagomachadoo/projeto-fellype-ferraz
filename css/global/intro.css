@@ -63,7 +63,7 @@
     }
 
     .intro__contatos{
-        gap: 8px;
+        gap: 20px 8px;
     }
 
     .intro__link{

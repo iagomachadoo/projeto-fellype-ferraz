@@ -18,14 +18,11 @@
 @media(max-width: 800px){
     .quem-sou__img{
         max-width: 40%;
+        margin-bottom: 40px;
     }
 }
 
 @media(max-width: 600px){
-    .quem-sou{
-        padding-bottom: 32px;
-    }
-
     .quem-sou__img{
         margin-bottom: 32px;
         max-width: 50%;

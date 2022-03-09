@@ -35,3 +35,10 @@
 .tema__conteudo--hover:hover{
     background-color: var(--t1);
 }
+
+@media(max-width: 600px){
+    .tema__titulo,
+    .tema__img{
+    margin-bottom: 0;
+}
+}
