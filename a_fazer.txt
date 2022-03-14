@@ -2,7 +2,7 @@
 
 *- Adicionar url para os links de redes sociais; ok
 
-*- Ajustar dimensionamento das imagens para tamanhos diferentes de tela;
+*- Ajustar dimensionamento das imagens para tamanhos diferentes de tela (já fiz para as imagens, agora só falta os ícones);
 
 *- Ajustar o menu mobile para quando clicar no botão de fechar, ambos os containers fechem juntamente;
 
