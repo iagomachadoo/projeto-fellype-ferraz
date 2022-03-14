@@ -1,6 +1,6 @@
 *- Retirar decorador do link de página atual em telas mobile(< 600px); ok
 
-*- Adicionar url para os links de redes sociais;
+*- Adicionar url para os links de redes sociais; ok
 
 *- Ajustar dimensionamento das imagens para tamanhos diferentes de tela;
 
