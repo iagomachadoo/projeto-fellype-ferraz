@@ -1,0 +1,15 @@
+*- Retirar decorador do link de página atual em telas mobile(< 600px); ok
+
+*- Adicionar url para os links de redes sociais;
+
+*- Ajustar dimensionamento das imagens para tamanhos diferentes de tela;
+
+*- Ajustar o menu mobile para quando clicar no botão de fechar, ambos os containers fechem juntamente;
+
+*- Ajustar a cor do foco nos inputs da página de mensagens;
+
+*- Ajustar slide da área de temas no index;
+
+*- Implementar a ordem correta na área postagens recentes, onde as postagens devem aparecer da mais recente para a mais antiga;
+
+*- Implementas slide na área de mensagens;
