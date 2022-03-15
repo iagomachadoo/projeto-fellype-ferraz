@@ -48,7 +48,7 @@
     display: block;
     width: 10px;
     height: 6px;
-    background: url("../../img/icone/seta-menu.svg");
+    background: url("../../img/img_otimizada/icones/seta-menu.svg");
     transition: .2s ease-in-out;
 }
 
@@ -107,14 +107,14 @@
     .btn__menu--after::after{
         content: '';
         display: inline-block;
-        background: url('../../img/icone/menu-mobile.svg');
+        background: url('../../img/img_otimizada/icones/menu_mobile/menu-mobile.svg');
         width: 28px;
         height: 22px;
         transition: .3s;
     }
 
     .is-ativo .btn__menu--after::after{
-        background: url('../../img/icone/menu-mobile-fechado.svg');
+        background: url('../../img/img_otimizada/icones/menu_mobile/menu-mobile-fechado.svg');
         width: 22px;
         height: 22px;
     }

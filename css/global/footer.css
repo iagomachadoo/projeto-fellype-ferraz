@@ -36,7 +36,7 @@
 .footer__item--before-1::before{
     content: '';
     display: inline-block;
-    background: url("../../img/icone/rede-social/whatsapp.svg");
+    background: url("../../img/img_otimizada/icones/rede-social/whatsapp.svg");
     width: 16px;
     height: 16px;
 }
@@ -44,7 +44,7 @@
 .footer__item--before-2::before{
     content: '';
     display: inline-block;
-    background: url("../../img/icone/rede-social/envelope.svg");
+    background: url("../../img/img_otimizada/icones/rede-social/envelope.svg");
     width: 16px;
     height: 16px;
 }
@@ -52,7 +52,7 @@
 .footer__item--before-3::before{
     content: '';
     display: inline-block;
-    background: url("../../img/icone/rede-social/instagram.svg");
+    background: url("../../img/img_otimizada/icones/rede-social/instagram.svg");
     width: 16px;
     height: 16px;
 }
@@ -60,7 +60,7 @@
 .footer__item--before-4::before{
     content: '';
     display: inline-block;
-    background: url("../../img/icone/rede-social/tiktok.svg");
+    background: url("../../img/img_otimizada/icones/rede-social/tiktok.svg");
     width: 16px;
     height: 16px;
 }
