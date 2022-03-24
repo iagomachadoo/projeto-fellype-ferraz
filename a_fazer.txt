@@ -6,7 +6,7 @@
 
 *- Ajustar o menu mobile para quando clicar no botão de fechar, ambos os containers fechem juntamente; ok
 
-*- Ajustar a cor do foco nos inputs da página de mensagens;
+*- Ajustar a cor do foco nos inputs da página de mensagens; ok
 
 *- Ajustar slide da área de temas no index;
 
