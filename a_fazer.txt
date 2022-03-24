@@ -4,7 +4,7 @@
 
 *- Ajustar dimensionamento das imagens para tamanhos diferentes de tela (já fiz para as imagens, agora só as imagens da página postagens recentes e os ícones); ok
 
-*- Ajustar o menu mobile para quando clicar no botão de fechar, ambos os containers fechem juntamente;
+*- Ajustar o menu mobile para quando clicar no botão de fechar, ambos os containers fechem juntamente; ok
 
 *- Ajustar a cor do foco nos inputs da página de mensagens;
 
@@ -14,4 +14,6 @@
 
 *- Implementas slide na área de mensagens;
 
-*- Adicionar animação nos elementos
+*- Adicionar animação nos elementos;
+
+*- Adicionar botão voltar ao topo na página inicial;

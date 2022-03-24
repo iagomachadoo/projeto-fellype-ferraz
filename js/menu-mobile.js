@@ -11,6 +11,10 @@ function toggleClass(evento) {
 
     const headerMenu = document.querySelector('.header__menu');
 
+    const subMenuLista = document.querySelector('.sub-menu__lista');
+
+    const classesSubMenuLista = subMenuLista.classList
+
     headerMenu.classList.toggle('is-ativo');
 
     const menuAtivo = headerMenu.classList.contains('is-ativo');//retorna um valor booleano
@@ -21,5 +25,7 @@ function toggleClass(evento) {
         evento.currentTarget.setAttribute('aria-label','Fechar menu');
     } else {
         evento.currentTarget.setAttribute('aria-label','Abrir menu');
+
+        classesSubMenuLista.remove('is-ativo')
     }
 }
