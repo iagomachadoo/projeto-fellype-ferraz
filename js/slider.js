@@ -1,4 +1,4 @@
-const slides = document.querySelectorAll('.slide');
+const slides = document.querySelectorAll('.temas__item-slide');
 
 const corressel = document.getElementById('corressel');
 
@@ -12,7 +12,7 @@ let slidAtual = 0;
 
 btnEsquerdo.addEventListener('click', () => {
     slidAtual --;
-
+    console.log(slidAtual);
     if (slidAtual < 0) {
         slidAtual = quantidadeDeSlides -1;
     }
@@ -22,7 +22,7 @@ btnEsquerdo.addEventListener('click', () => {
 
 btnDireito.addEventListener('click', () => {
     slidAtual ++;
-
+    console.log(slidAtual);
     if (slidAtual > quantidadeDeSlides -1) {
         slidAtual = 0;
     }
@@ -30,6 +30,6 @@ btnDireito.addEventListener('click', () => {
     atualizarCarrossel();
 });
 
-function atualizarCarrossel(params) {
+function atualizarCarrossel() {
     corressel.style.transform = `translateX(${-slidAtual * slides[0].offsetWidth}px)`;
 };//offsetWidth é uma propriedade somente de leitura e retorna a largura de um elemento

@@ -7,11 +7,11 @@
     max-width: initial;
 }
 
-.corrossel-container{
+.temas__lista-corresel{
     overflow: hidden;
 }
 
-.corressel{
+.temas__corressel{
     display: flex;
     gap: 40px;
     padding-left: 10px;
@@ -21,21 +21,21 @@
     transform: translateX(0);/* move o elemento no eixo X */
 }
 
-.slide{
+.temas__item-slide{
     background-color: var(--p3);
     padding: 20px;
     min-width: 320px;
 }
 
-.slide a{
+.temas__link{
     display: block;
 }
 
-.slide h3{
+.temas__subtitulo{
     margin-top: 20px;
 }
 
-.temas button{
+.temas__btn{
     border: 0;
     background-color: transparent;
     position: absolute;
@@ -47,47 +47,46 @@
     border-radius: 5px;
 }
 
-.temas button:hover{
+.temas__btn--hover:hover{
     background-color: var(--s1);
 }
 
-.btn-esquerdo{
+.temas__btn--esquerdo{
     left: 12px;
 }
 
-.btn-direito{
+.temas__btn--direito{
     right: 12px;
     transform: rotate(180deg);
 }
 
 @media(max-width: 800px){
-    .slide{
+    .temas__item-slide{
         min-width: 240px;
     }
 }
 
 @media(max-width: 600px){
-    .corressel{
+    .temas__corressel{
         gap: 20px;
         padding-left: 40px;
         padding-right: 20px;
     }
 
-    .temas h2{
+    .temas__titulo{
         margin-bottom: 32px;
     }
 
-    .slide{
+    .temas__item-slide{
         min-width: 160px;
         padding: 8px;
     }
 
-    .slide h3{
+    .temas__subtitulo{
         margin-top: 8px;
     }
 
-    .btn-esquerdo img,
-    .btn-direito img{
+    .temas__btn-img{
         width: 16px;
     }
 }
