@@ -14,6 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/animacao.js" defer></script>
+    <script src="./js/pagina-atual.js" defer></script>
+    <script src="./js/menu-temas.js" defer></script>
+    <script src="./js/menu-mobile.js" defer></script>
+    <script src="./js/perguntas.js" defer></script>
+    <script src="./js/slider.js" defer></script>
 </head>
 
 <body>
@@ -84,12 +90,12 @@
         </picture>
 
         <div class="intro__bg">
-            <div class="container">
-                <h1 class="font-xxl c-11 intro__titulo">Como faço para marcar um atendimento?</h1>
+            <div class="container is-animacao is-scroll">
+                <h1 class="font-xxl c-11 intro__titulo is-animacao__esquerda--200">Como faço para marcar um atendimento?</h1>
 
-                <h2 class="font-l c-9 intro__subtitulo">Segue abaixo algumas opções de contato.</h2>
+                <h2 class="font-l c-9 intro__subtitulo is-animacao__esquerda--400">Segue abaixo algumas opções de contato.</h2>
 
-                <div class="intro__contatos">
+                <div class="intro__contatos is-animacao__direita--600">
                     <a href="http://web.whatsapp.com/send?phone=552299930-8755" target="_blank"
                         rel="noopener noreferrer" class="intro__link">
 
@@ -130,10 +136,10 @@
         </div>
     </main>
 
-    <article class="perguntas container">
-        <h2 class="font-xxl c11 perguntas__titulo">Perguntas frequentes.</h2>
+    <article class="perguntas container is-animacao is-scroll">
+        <h2 class="font-xxl c11 perguntas__titulo is-animacao__esquerda--200">Perguntas frequentes.</h2>
 
-        <dl class="perguntas__container">
+        <dl class="perguntas__container is-animacao__direita--400">
             <div class="perguntas__conteudo">
                 <dt><button class="font-m-b c-11 perguntas__pergunta perguntas__pergunta--after" aria-expanded="true"
                         aria-controls="pergunta1">Como saber se preciso de um psicólogo?</button></dt>
@@ -202,19 +208,19 @@
     </article>
 
     <article class="sobre-mim__bg">
-        <div class="sobre-mim__cotainer container">
+        <div class="sobre-mim__cotainer container is-animacao is-scroll">
             <div class="sobre-mim__conteudo">
-                <h2 class="font-xxl c-11 sobre-mim__titulo">Conheça o Fellype.</h2>
+                <h2 class="font-xxl c-11 sobre-mim__titulo is-animacao__esquerda--200">Conheça o Fellype.</h2>
 
-                <p class="font-m c-9 sobre-mim__texto">Graduado em psicologia pela Universidade Federal Fluminense,
-                    tracei um percurso de formação que me convocou para trabalhar uma escuta sensível, ética e não
-                    excludente, que acolhe o sofrimento psíquico através da ótica da psicanálise e ajuda a construir uma
-                    clínica que vai para além do setting analítico tradicional.</p>
+                <p class="font-m c-9 sobre-mim__texto is-animacao__esquerda--400">Graduado em psicologia pela Universidade Federal Fluminense,
+                tracei um percurso de formação que me convocou para trabalhar uma escuta sensível, ética e não
+                excludente, que acolhe o sofrimento psíquico através da ótica da psicanálise e ajuda a construir uma
+                clínica que vai para além do setting analítico tradicional.</p>
 
-                <a href="./quem-sou.html" class="btn btn--hover">saiba mais</a>
+                <a href="./quem-sou.html" class="btn btn--hover is-animacao__esquerda--600">saiba mais</a>
             </div>
 
-            <picture>
+            <picture class="is-animacao__direita--800">
                 <source media="(max-width: 800px)"
                     srcset="./img/img_otimizada/img_index/img_perfil/img-perfil-300-311.webp" type="image/webp">
 
@@ -225,10 +231,10 @@
         </div>
     </article>
 
-    <article class="temas container">
-        <h2 class="font-xxl c-11 temas__titulo">Temas.</h2>
+    <article class="temas container is-animacao is-scroll">
+        <h2 class="font-xxl c-11 temas__titulo is-animacao__esquerda--200">Temas.</h2>
 
-        <ul class="temas__lista-corresel">
+        <ul class="temas__lista-corresel is-animacao__direita--400">
             <div class="temas__corressel" id="corressel">
                 <li class="temas__item-slide">
 
@@ -316,10 +322,10 @@
     </article>
 
     <section class="postagens__bg">
-        <div class="postagens container">
-            <h2 class="font-xxl c-11 postagens__titulo">Postagens recentes.</h2>
+        <div class="postagens container is-animacao is-scroll">
+            <h2 class="font-xxl c-11 postagens__titulo is-animacao__esquerda--200">Postagens recentes.</h2>
 
-            <ul class="postagens__lista">
+            <ul class="postagens__lista is-animacao__direita--400">
                 <li class="postagens__item">
                     <a href="./temas/tema_depressao/depressao_t1.html" class="postagens__link">
                         <div class="postagens__block-img">
@@ -363,24 +369,24 @@
                 </li>
             </ul>
 
-            <a href="./postagens_recentes.html" class="btn btn--mt btn--hover">mais postagens</a>
+            <a href="./postagens_recentes.html" class="btn btn--mt btn--hover is-animacao__esquerda--600">mais postagens</a>
         </div>
     </section>
 
-    <section class="caixa-mensagem container">
-        <h2 class="font-xxl c-11 caixa-mensagem__titulo">Caixa de mensagens.</h2>
+    <section class="caixa-mensagem container is-animacao is-scroll">
+        <h2 class="font-xxl c-11 caixa-mensagem__titulo is-animacao__esquerda--200">Caixa de mensagens.</h2>
 
-        <p class="font-m c-9 caixa-mensagem__subtitulo">Esse espaço é reservado para dúvidas, curiosidades, desabafos,
+        <p class="font-m c-9 caixa-mensagem__subtitulo is-animacao__direita--400">Esse espaço é reservado para dúvidas, curiosidades, desabafos,
             depoimentos, comentários e o que mais acharem necessário. A opção para colocar seu nome não foi ativada para
             que a sua identidade fosse preservada. Já as opções de idade e cidade estão disponíveis apenas para tornar a
-            troca menos mecanizada e mais real. Grato desde já pela interação.</p>
+        troca menos mecanizada e mais real. Grato desde já pela interação.</p>
 
-        <picture>
+        <picture class="is-animacao__esquerda--400">
             <img src="./img/img_otimizada/img_index/img-caixa-mensagem-360-400.webp" alt="Imagem de um balão de fala"
                 class="caixa-mensagem__img img--border">
         </picture>
 
-        <div class="caixa-mensagem__mensagem">
+        <div class="caixa-mensagem__mensagem is-animacao__direita--400">
             <span class="font-m c-11 caixa-mensagem__info">idade -</span>
 
             <span class="font-m c-11 caixa-mensagem__info">cidade</span>
@@ -391,7 +397,7 @@
                 dummy text ever since the 1500s.</p>
         </div>
 
-        <a href="./mensagem.html" class="btn-link btn-link--after btn-link--hover">deixe sua mensagem</a>
+        <a href="./mensagem.html" class="btn-link btn-link--after btn-link--hover is-animacao__esquerda--600">deixe sua mensagem</a>
     </section>
 
     <footer class="footer__bg">
@@ -451,12 +457,6 @@
             </nav>
         </div>
     </footer>
-
-    <script src="./js/pagina-atual.js"></script>
-    <script src="./js/menu-temas.js"></script>
-    <script src="./js/menu-mobile.js"></script>
-    <script src="./js/perguntas.js"></script>
-    <script src="./js/slider.js"></script>
 </body>
 
 </html>

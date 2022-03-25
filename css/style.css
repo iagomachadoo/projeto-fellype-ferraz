@@ -22,3 +22,5 @@
 @import './util/utilitario.css';
 @import './util/tipografia.css';
 @import './util/cor.css';
+
+@import './animacao/animacao.css';

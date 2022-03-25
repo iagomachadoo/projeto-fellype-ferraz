@@ -10,7 +10,7 @@
 
 *- Ajustar slide da área de temas no index;
 
-*- Adicionar animação nos elementos;
+*- Adicionar animação nos elementos; ok
 
 *- Adicionar botão voltar ao topo na página inicial;
 

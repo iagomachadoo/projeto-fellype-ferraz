@@ -1,0 +1,63 @@
+.is-scroll{
+    opacity: 0;
+    transition: 200ms;
+}
+
+.is-scroll-ativo{
+    opacity: 1;
+}
+
+.is-scroll-ativo .is-animacao__esquerda--200{
+    animation-name: animacao__esquerda;
+    animation-duration: 200ms;
+}
+
+.is-scroll-ativo .is-animacao__esquerda--400{
+    animation-name: animacao__esquerda;
+    animation-duration: 400ms;
+}
+
+.is-scroll-ativo .is-animacao__esquerda--600{
+    animation-name: animacao__esquerda;
+    animation-duration: 600ms;
+}
+
+.is-scroll-ativo .is-animacao__direita--200{
+    animation-name: animacao__direita;
+    animation-duration: 200ms;
+}
+
+.is-scroll-ativo .is-animacao__direita--400{
+    animation-name: animacao__direita;
+    animation-duration: 400ms;
+}
+
+.is-scroll-ativo .is-animacao__direita--600{
+    animation-name: animacao__direita;
+    animation-duration: 600ms;
+}
+
+.is-scroll-ativo .is-animacao__direita--800{
+    animation-name: animacao__direita;
+    animation-duration: 800ms;
+}
+
+@keyframes animacao__esquerda{
+    from {
+        transform: translate3d(-60px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes animacao__direita{
+    from {
+        transform: translate3d(60px, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
