@@ -14,16 +14,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/animacao.js" defer></script>
     <script src="./js/pagina-atual.js" defer></script>
     <script src="./js/menu-temas.js" defer></script>
-    <script src="./js/menu-mobile.js" defer></script>
+    <script src="./js/animacao.js" defer></script>
+    <script src="./js/btn-volta-ao-topo.js" defer></script>
     <script src="./js/perguntas.js" defer></script>
     <script src="./js/slider.js" defer></script>
+    <script src="./js/menu-mobile.js" defer></script>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="cabecalho">
         <div class="header__principal container container__cabecalho">
             <img src="./img/img_otimizada/icones/logo.svg" alt="Logo seu.psi" width="140" height="43">
 
@@ -455,6 +456,17 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+
+        <div class="footer__btn footer__btn--opacity0" data-scroll="suave" data-anima="scroll">
+
+            <a href="#cabecalho" class="btn__link">
+
+                <div class="btn__container">
+
+                    <img src="./img/img_otimizada/icones/arrow-up-circle.svg" alt="voltar ao topo" class="btn__img">
+                </div>
+            </a>
         </div>
     </footer>
 </body>

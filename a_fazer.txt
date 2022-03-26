@@ -8,12 +8,14 @@
 
 *- Ajustar a cor do foco nos inputs da página de mensagens; ok
 
-*- Ajustar slide da área de temas no index;
-
 *- Adicionar animação nos elementos; ok
 
-*- Adicionar botão voltar ao topo na página inicial;
+*- Adicionar botão voltar ao topo na página inicial; ok
+
+*- Ajustar slide da área de temas no index;
 
 *- Implementar a ordem correta na área postagens recentes, onde as postagens devem aparecer da mais recente para a mais antiga;
 
 *- Implementas slide na área de mensagens;
+
+*- modificar unidades de media de px para rem;

@@ -89,6 +89,35 @@
     color: var(--t1);
 }
 
+/* botão votar ao topo */
+.footer__btn--opacity0{
+    opacity: 0;
+    transition: 200ms;
+}
+
+.footer__btn--opacity1{
+    opacity: 1;
+    transform: translate3d(-20px, 0, 0);
+}
+
+.footer__btn{
+    background-color: var(--t1);
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 32px;
+    right: 20px;
+}
+
+.btn__img{
+    width: 32px;
+    height: auto;
+}
+
 @media(max-width: 800px){
     .container{
         padding: 40px 20px;
