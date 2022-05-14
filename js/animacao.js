@@ -18,12 +18,17 @@ function animaScroll() {
 
         const alturaQueAAnimacaoDeveOcorrer = (distanciaDoItemEmRelacaoAoTopo - pegando50PorCentoDaAlturaDaTela) < 0
 
-        if(pegandoLarguraDaTela()){
-            item.classList.remove('is-scroll')
-
-        } else if (alturaQueAAnimacaoDeveOcorrer) {
+        if(alturaQueAAnimacaoDeveOcorrer && !pegandoLarguraDaTela()){
             item.classList.add('is-scroll-ativo')
-        }
+        } 
+    })
+}
+
+if(pegandoLarguraDaTela()){
+    const containerIntroBg = document.querySelectorAll('.is-animacao');
+    
+    containerIntroBg.forEach((item) => {
+        item.classList.remove('is-scroll')
     })
 }
 
@@ -35,11 +40,6 @@ function definindoEmQueAlturaAAnimacaoOcorre(){
     return pegandoProporcaoDoTamanhoDaTela
 }//definindo em que altura a animação vai ocorrer
 
-function pegarLarguraDaTela(){
-    const larguraDaTela = window.innerWidth
-    
-    return larguraDaTela
-}
 
 function pegandoLarguraDaTela(){
     const verificandoLarguraDaTela = window.matchMedia("(max-width: 1000px)").matches
